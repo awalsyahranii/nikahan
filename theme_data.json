@@ -1,0 +1,1420 @@
+{
+  "component": "Wedding/InvitationPage",
+  "props": {
+    "errors": {},
+    "name": "Inveet",
+    "whatsappCustomerBlastEnabled": false,
+    "locale": "id",
+    "i18n": {
+      "locale": "id",
+      "area": "invitation",
+      "files": {
+        "common": "/i18n/id/common.495cf5f4.json",
+        "a11y": "/i18n/id/a11y.c6007804.json",
+        "wedding": "/i18n/id/wedding.ab5ea0fd.json",
+        "photobooth": "/i18n/id/photobooth.57c4df88.json"
+      }
+    },
+    "csrf_token": "zMwxXJYXUDBn9UG7MVCcQh4cLg5fZWCHy0bZmgUq",
+    "auth": {
+      "user": null
+    },
+    "announcement": null,
+    "impersonation": {
+      "active": false
+    },
+    "flash": {
+      "analytics_signup": null,
+      "message": null,
+      "success": null,
+      "error": null,
+      "warning": null,
+      "info": null,
+      "upgrade_info": null,
+      "onboarding_published": null,
+      "job_id": null,
+      "id": null
+    },
+    "sidebarOpen": true,
+    "trace_id": "983d0b7811329754",
+    "app_env": "production",
+    "weddings": null,
+    "currentWedding": null,
+    "currentPackageTier": "bronze",
+    "weddingPlannerSubscription": null,
+    "plannerNotifications": null,
+    "config": {
+      "turnstile_site_key": null,
+      "adobe_fonts_api_token": "",
+      "sentry": {
+        "dsn": "https://2111197c375cb94583f3aa4d82f6b518@o4511879606435840.ingest.us.sentry.io/4511879667253248",
+        "enabled": true,
+        "environment": "production",
+        "release": null,
+        "sample_rate": 1,
+        "traces_sample_rate": 0.1
+      },
+      "feature_flags": {
+        "wedding_switcher": false,
+        "multi_invitation_types": false,
+        "editor_v2": false,
+        "design_config_v2": false
+      }
+    },
+    "seo": {
+      "title": "Undangan Pernikahan Online & Undangan Nikah Digital - Inveet",
+      "description": "Buat undangan pernikahan online gratis di Inveet. Pilih tema undangan nikah digital, kelola RSVP dan daftar tamu, lalu bagikan lewat WhatsApp.",
+      "keywords": "undangan pernikahan online, undangan nikah digital, undangan pernikahan digital, undangan nikah online, buat undangan online, undangan pernikahan gratis, template undangan pernikahan, undangan digital gratis, wedding invitation online",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "canonical": "https://inveet.id/theme-preview/sora-botanica",
+      "og:type": "website",
+      "og:title": "Undangan Pernikahan Online & Undangan Nikah Digital - Inveet",
+      "og:description": "Buat undangan pernikahan online gratis di Inveet. Pilih tema undangan nikah digital, kelola RSVP dan daftar tamu, lalu bagikan lewat WhatsApp.",
+      "og:image": "https://inveet.id/images/inveet-og-image.jpg",
+      "og:image:alt": "Undangan Pernikahan Online & Undangan Nikah Digital - Inveet",
+      "og:url": "https://inveet.id/theme-preview/sora-botanica",
+      "og:site_name": "Inveet",
+      "og:locale": "id_ID",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "",
+      "twitter:title": "Undangan Pernikahan Online & Undangan Nikah Digital - Inveet",
+      "twitter:description": "Buat undangan pernikahan online gratis di Inveet. Pilih tema undangan nikah digital, kelola RSVP dan daftar tamu, lalu bagikan lewat WhatsApp.",
+      "twitter:image": "https://inveet.id/images/inveet-og-image.jpg",
+      "alternates": []
+    },
+    "wedding": {
+      "id": 1,
+      "slug": "dias-azalia",
+      "title": null,
+      "groom_name": "Dias Taufik",
+      "bride_name": "Azalia Fasya",
+      "soft_device_lock_enabled": false,
+      "groom_photo": "https://assets-staging.inveet.id/weddings/dias-azalia/couples/photos/groom_1787506073_aVeBMpHeLs.jpg?width=400&height=400&quality=90",
+      "bride_photo": "https://assets-staging.inveet.id/weddings/dias-azalia/couples/photos/bride_1787506074_SGiAMsD48d.jpg?width=400&height=400&quality=90",
+      "groom_instagram": "diastaufikr",
+      "bride_instagram": "diastaufikr",
+      "groom_father_name": "Ayah Dias",
+      "groom_mother_name": "Ibu Dias",
+      "bride_father_name": "Ayah Azalia",
+      "bride_mother_name": "Ibu Azalia",
+      "turut_mengundang_male": [
+        {
+          "name": "Brodi",
+          "relation": "Kakak"
+        }
+      ],
+      "turut_mengundang_female": [
+        {
+          "name": "Rena",
+          "relation": "Saudara Ibu"
+        }
+      ],
+      "wedding_quotes": "<p 0.7px;\\\"=\"\" style=\"font-family: &quot;Times New Roman&quot;; font-size: medium; letter-spacing: normal;\">Dan di antara tanda-tanda kekuasaan-<b style=\"\">Nya</b> diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan hati dan dijadikannya kasih sayang di antara kamu.</p><p 0.7px;\\\"=\"\" style=\"font-family: &quot;Times New Roman&quot;; font-size: medium; letter-spacing: normal;\">Sesungguhnya yang demikian menjadi tanda-tanda kebesaran-Nya bagi orang-orang yang berpikir.</p><p 0.7px;\\\"=\"\" style=\"font-family: &quot;Times New Roman&quot;; font-size: medium; letter-spacing: normal;\"><i>Q.S. Ar-Rum: 21</i></p>",
+      "cover_title": "Pernikahan",
+      "cover_photo": null,
+      "reception_date": "2026-09-30",
+      "reception_time": null,
+      "reception_place_name": "Hotel Transit FM3",
+      "reception_location": "Jl. Raya Serpong No.104, RT.5/RW.1, Pakualam, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15320, Indonesia",
+      "reception_latitude": "-6.236429902870134",
+      "reception_longitude": "106.64493537417324",
+      "ceremony_date": "2026-09-30",
+      "ceremony_time": null,
+      "ceremony_place_name": "Edelweiss Wedding Hall",
+      "ceremony_location": "Sport Club Goldland Karawaci, Gedung Edelweiss no. 1 dan 2, West Panunggangan, Cibodas, Jl. Palem Raja Raya, RT.002/RW.004, Bencongan Indah, Kecamatan Kelapa Dua, Kota Tangerang, Banten 15810, Indonesia",
+      "ceremony_latitude": "-6.224391",
+      "ceremony_longitude": "106.6142835",
+      "youtube_url": "https://youtu.be/Z2Z9V-4DMGw",
+      "wedding_music": "https://assets-staging.inveet.id/user-assets/3/01M4681YSQ0WSYQFQ8700E3EMH.mp3",
+      "galleries": [
+        {
+          "id": 97886,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKGBVQJNDBTXCGWB7YFD6.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKGBVQJNDBTXCGWB7YFD6.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKGBVQJNDBTXCGWB7YFD6.png",
+          "original_name": "",
+          "alt_text": "cover-3.png",
+          "order": 3,
+          "mime_type": "image/png",
+          "media_type": "image"
+        },
+        {
+          "id": 97887,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKHB0E5ZMVCH2FCCX5TMN.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKHB0E5ZMVCH2FCCX5TMN.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKHB0E5ZMVCH2FCCX5TMN.png",
+          "original_name": "",
+          "alt_text": "cover-4.png",
+          "order": 4,
+          "mime_type": "image/png",
+          "media_type": "image"
+        },
+        {
+          "id": 97888,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKFE2Y00WJYYFE5JXY3AY.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKFE2Y00WJYYFE5JXY3AY.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKFE2Y00WJYYFE5JXY3AY.png",
+          "original_name": "",
+          "alt_text": "cover-2.png",
+          "order": 5,
+          "mime_type": "image/png",
+          "media_type": "image"
+        },
+        {
+          "id": 97889,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD6DWD0JK1SMRJNC26S3.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD6DWD0JK1SMRJNC26S3.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD6DWD0JK1SMRJNC26S3.png",
+          "original_name": "",
+          "alt_text": "cover.png",
+          "order": 6,
+          "mime_type": "image/png",
+          "media_type": "image"
+        },
+        {
+          "id": 97890,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD8RKTPGHNXE1ZBSG2D2.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD8RKTPGHNXE1ZBSG2D2.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD8RKTPGHNXE1ZBSG2D2.png",
+          "original_name": "",
+          "alt_text": "cover-1.png",
+          "order": 7,
+          "mime_type": "image/png",
+          "media_type": "image"
+        },
+        {
+          "id": 97891,
+          "filename": "https://assets-staging.inveet.id/user-assets/3/01M0QTKCZ3QXNDBM11SR2665K5.png",
+          "url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKCZ3QXNDBM11SR2665K5.png",
+          "file_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKCZ3QXNDBM11SR2665K5.png",
+          "original_name": "",
+          "alt_text": "closing.png",
+          "order": 8,
+          "mime_type": "image/png",
+          "media_type": "image"
+        }
+      ],
+      "gallery_video": null,
+      "story": [
+        {
+          "id": 91,
+          "year": "2019",
+          "story": "Liat dia lagi kepedesan, kok lucu banget",
+          "location": "Ayam Penyet",
+          "image_path": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD6DWD0JK1SMRJNC26S3.png",
+          "image_url": "https://assets-staging.inveet.id/user-assets/3/01M0QTKD6DWD0JK1SMRJNC26S3.png",
+          "order": 1
+        }
+      ],
+      "voice_of_us": {
+        "version": 1,
+        "generation": 5,
+        "messages": [
+          {
+            "title": "Sapaan untuk kamu",
+            "mime_type": "audio/mpeg",
+            "placement": "opening",
+            "anchor_key": "opening",
+            "asset_ulid": "01M4CZZFWYJ58DZMK88YY57PJM",
+            "size_bytes": 250506,
+            "slot_order": 0,
+            "transcript": "Hai... kalau kamu lagi dengerin pesan ini... berarti kamu itu orang yang aku pengen banget hadir, di hari spesial kami. Makasih ya... udah jadi bagian dari cerita kami. Jadi... pokoknya kamu harus datang ya! Aku tunggu kamu di sana!",
+            "duration_ms": 20794,
+            "message_ulid": "01M4CZZHGK9992T56N5ZNFNSN3",
+            "playback_url": "/api/voice-of-us/wedding/dias-azalia/01M4CZZFWYJ58DZMK88YY57PJM",
+            "speaker_name": "Azalia",
+            "speaker_refs": [
+              "bride"
+            ],
+            "subject_name": null,
+            "revision_ulid": "01M4CZZHH59SAFVQGR6PG836SY"
+          }
+        ]
+      },
+      "comments": [],
+      "comments_api": true,
+      "stickers": [
+        {
+          "ulid": "01KZCX6SF3E2F5BRK35BF4T6S4",
+          "name": "Love",
+          "image_url": "/static/wish-stickers/hearts.png",
+          "mime_type": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "ulid": "01KZCX6SJXPY8MWEGEBGZG6ZR4",
+          "name": "Wedding rings",
+          "image_url": "/static/wish-stickers/rings.png",
+          "mime_type": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "ulid": "01KZCX6SQ65VGMN89XEK0D7EXA",
+          "name": "Cheers",
+          "image_url": "/static/wish-stickers/cheers.png",
+          "mime_type": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "ulid": "01KZCX6SY64395XBRE48P2YVWS",
+          "name": "Wedding cake",
+          "image_url": "/static/wish-stickers/cake.png",
+          "mime_type": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "ulid": "01KZCYFCV8EWSMQFYNW97KWQKN",
+          "name": "Dancing celebration",
+          "image_url": "https://assets-staging.inveet.id/stickers/dancing-celebration-86cd222f.gif",
+          "mime_type": "image/gif",
+          "width": 186,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFDHB9J9XGNP4SA1SH5AX",
+          "name": "Quby cheering",
+          "image_url": "https://assets-staging.inveet.id/stickers/quby-cheering-2590833d.gif",
+          "mime_type": "image/gif",
+          "width": 177,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFE9M8HJPEKX9NF9R23AB",
+          "name": "Animated wish 1",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-1-e48f1a48.gif",
+          "mime_type": "image/gif",
+          "width": 240,
+          "height": 240
+        },
+        {
+          "ulid": "01KZCYFF6YJ8EH0MD72P986ZKB",
+          "name": "Animated wish 2",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-2-4ba9113d.gif",
+          "mime_type": "image/gif",
+          "width": 584,
+          "height": 640
+        },
+        {
+          "ulid": "01KZCYFFX2PZW7B8YBN2T5YRHM",
+          "name": "Animated wish 3",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-3-53c4dc87.gif",
+          "mime_type": "image/gif",
+          "width": 640,
+          "height": 616
+        },
+        {
+          "ulid": "01KZCYFGGVJQMZM930AV2SC39D",
+          "name": "Animated wish 4",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-4-4a8d624d.gif",
+          "mime_type": "image/gif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "ulid": "01KZCYFH7ECH548V66T7ZM05PK",
+          "name": "Dudu wave",
+          "image_url": "https://assets-staging.inveet.id/stickers/dudu-wave-f594b9d1.gif",
+          "mime_type": "image/gif",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "ulid": "01KZCYFJ302YFMW6N3XZGVBKA9",
+          "name": "Bubu Dudu greeting",
+          "image_url": "https://assets-staging.inveet.id/stickers/bubu-dudu-greeting-262efa08.gif",
+          "mime_type": "image/gif",
+          "width": 177,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFJN61JBSJRP0V7AKA7NJ",
+          "name": "Dudu twisting dance",
+          "image_url": "https://assets-staging.inveet.id/stickers/dudu-twisting-dance-1ee32361.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFK9FK11E4H141C006728",
+          "name": "Happy birthday",
+          "image_url": "https://assets-staging.inveet.id/stickers/happy-birthday-c9753492.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFKW0WSWXRNRM0MH8ETDE",
+          "name": "Bubu Dudu celebration",
+          "image_url": "https://assets-staging.inveet.id/stickers/bubu-dudu-celebration-0972266b.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFMD6E1HE7E82MKC2M9AX",
+          "name": "Cute bear",
+          "image_url": "https://assets-staging.inveet.id/stickers/cute-bear-1a61618e.gif",
+          "mime_type": "image/gif",
+          "width": 175,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFN06T63XARFZA7EC9PPR",
+          "name": "Animated wish 5",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-5-2c364bb3.gif",
+          "mime_type": "image/gif",
+          "width": 498,
+          "height": 449
+        },
+        {
+          "ulid": "01KZCYFNHE0DM7HF2CKSG1TN88",
+          "name": "Weird reaction",
+          "image_url": "https://assets-staging.inveet.id/stickers/weird-reaction-b9177f5d.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFQ106XS8FZ0D1MXN30R7",
+          "name": "Animated wish 6",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-6-67b768c9.gif",
+          "mime_type": "image/gif",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "ulid": "01KZCYFQYAQ0FMXBB0PKTA1JV6",
+          "name": "Scuba cat",
+          "image_url": "https://assets-staging.inveet.id/stickers/scuba-cat-cc46b684.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFSC9T0P6SKVDFJ4GX5RS",
+          "name": "Animated wish 7",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-7-48cee2f1.gif",
+          "mime_type": "image/gif",
+          "width": 180,
+          "height": 320
+        },
+        {
+          "ulid": "01KZCYFT33NBNEZB0CXHQ3MY0G",
+          "name": "Animated wish 8",
+          "image_url": "https://assets-staging.inveet.id/stickers/animated-wish-8-f86a127a.gif",
+          "mime_type": "image/gif",
+          "width": 498,
+          "height": 496
+        },
+        {
+          "ulid": "01KZCYFTK91VAJS84G19X22CT8",
+          "name": "Crying kitten",
+          "image_url": "https://assets-staging.inveet.id/stickers/crying-kitten-534970e5.gif",
+          "mime_type": "image/gif",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "ulid": "01KZCYFV6HG9GM1N2Q7K8VHA5J",
+          "name": "Quby sticker",
+          "image_url": "https://assets-staging.inveet.id/stickers/quby-sticker-21eccc42.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "ulid": "01KZCYFVPV4T7EP808BDSSNYXC",
+          "name": "Revenk",
+          "image_url": "https://assets-staging.inveet.id/stickers/revenk-d7320d67.gif",
+          "mime_type": "image/gif",
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "is_countdown_enabled": 1,
+      "is_music_enabled": 1,
+      "is_donation_enabled": 1,
+      "is_show_comment": 1,
+      "is_show_reception": true,
+      "is_show_ceremony": true,
+      "is_navigation_enabled": 1,
+      "is_enable_photo": 1,
+      "has_photobooth": true,
+      "voice_note_enabled": true,
+      "is_enable_maps": 1,
+      "show_covid_protocol": 1,
+      "covid_protocol_text": "&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;1. Wajib Menggunakan Masker&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;2. Menjaga Jarak Selama Acara&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;3. Tidak Melepas Masker Selama Acara&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;4. Akan Ada Pengecekan Suhu Sebelum Memasuki Venue&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Menjaga protokol kesehatan, menjaga sesama 💙&lt;/div&gt;",
+      "donation_type": "direct",
+      "default_wallet": "inveet",
+      "max_rsvp": 2,
+      "gifts": [
+        {
+          "id": 486,
+          "type": "bank",
+          "bank_name": "BCA",
+          "account_number": "12777777",
+          "account_name": "Dias",
+          "description": null,
+          "qr_code_image": null,
+          "is_active": true
+        }
+      ],
+      "name_position": "female",
+      "date_format": "date_format_id_d_dd_mm_yyyy",
+      "timezone": "WIB",
+      "section_couple": null,
+      "section_location": null,
+      "section_gallery": null,
+      "section_donation": null,
+      "section_guestbook": null,
+      "section_countdown": null,
+      "section_navigate_to": null,
+      "popup_title": "Undangan Pernikahan",
+      "popup_for": "Kepada",
+      "popup_footer": "Anda diundang untuk hadir dalam acara pernikahan Kami.",
+      "popup_button": "Lihat Undangan",
+      "popup_photo": null,
+      "livestream_title": null,
+      "livestream_description": null,
+      "livestream_button": null,
+      "information_title": "Informasi Protokol Kesehatan",
+      "section_guestbook_title": null,
+      "section_guestbook_name": null,
+      "section_guestbook_content": null,
+      "section_guestbook_present": null,
+      "section_guestbook_no_present": null,
+      "section_guestbook_person": null,
+      "section_guestbook_send_button": null,
+      "section_guestbook_button": null,
+      "section_donation_sub": null,
+      "section_countdown_days": null,
+      "section_countdown_hours": null,
+      "section_countdown_minutes": null,
+      "section_countdown_seconds": null,
+      "reception_type": "Akad",
+      "ceremony_type": "Resepsi",
+      "reception_start_time": "12:25",
+      "reception_end_time": "Selesai",
+      "ceremony_start_time": "08:00",
+      "ceremony_end_time": "Selesai",
+      "ceremony_dresscode_attire": "",
+      "ceremony_dresscode_color": "",
+      "reception_dresscode_attire": "",
+      "reception_dresscode_color": "",
+      "reception_timezone": "WIB",
+      "ceremony_timezone": "WIB",
+      "is_show_date_cover": 1,
+      "is_invitation_enabled": 1,
+      "is_navbar_enabled": 1,
+      "is_show_optional_one": true,
+      "is_show_optional_two": false,
+      "optional_one_type": "Ngunduh Mantu",
+      "optional_one_place_name": "Rumah Mempelai Pria",
+      "optional_one_location": "Unduh Mantu",
+      "optional_one_date": "2026-08-30",
+      "optional_one_start_time": "08:00",
+      "optional_one_end_time": "20:00",
+      "optional_one_timezone": "WIB",
+      "optional_one_dresscode_attire": "",
+      "optional_one_dresscode_color": "",
+      "optional_one_latitude": "",
+      "optional_one_longitude": "",
+      "optional_two_type": null,
+      "optional_two_place_name": null,
+      "optional_two_location": null,
+      "optional_two_date": null,
+      "optional_two_start_time": null,
+      "optional_two_end_time": null,
+      "optional_two_timezone": null,
+      "optional_two_dresscode_attire": null,
+      "optional_two_dresscode_color": null,
+      "optional_two_latitude": null,
+      "optional_two_longitude": null,
+      "information_type": "covid",
+      "theme_configuration": {
+        "ulid": "01M0CJQDYCF8ZS6JYGD6SQ6MZ0",
+        "colors": {
+          "accent": "#D7BB83",
+          "primary": "#4C030A",
+          "textDark": "#000000",
+          "textLight": "#FFFFFF",
+          "accentDark": "#A38C5E",
+          "background": "#FFFCF3",
+          "primaryLight": "#8A1B26",
+          "backgroundAlt": "#FFF9F4"
+        },
+        "typography": {
+          "bodyFont": "Poppins",
+          "accentFont": "Cormorant Infant",
+          "scriptFont": "Alex Brush",
+          "headingFont": "Pinyon Script",
+          "baseFontSize": 16,
+          "headingSizeScale": 1.25
+        },
+        "ornaments": [],
+        "sections": [
+          {
+            "id": "cover",
+            "type": "cover",
+            "order": 1,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "opening",
+            "type": "opening",
+            "order": 2,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "quote",
+            "type": "quote",
+            "order": 3,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "couple",
+            "type": "couple",
+            "order": 4,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "event",
+            "type": "event",
+            "order": 5,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "countdown",
+            "type": "countdown",
+            "order": 6,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "gallery",
+            "type": "gallery",
+            "order": 7,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "story",
+            "type": "story",
+            "order": 8,
+            "labels": [],
+            "enabled": false,
+            "customElements": []
+          },
+          {
+            "id": "gift",
+            "type": "gift",
+            "order": 9,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "wishes",
+            "type": "wishes",
+            "order": 10,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "photobooth",
+            "type": "photobooth",
+            "order": 11,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "closing",
+            "type": "closing",
+            "order": 12,
+            "labels": [],
+            "enabled": true,
+            "customElements": []
+          },
+          {
+            "id": "turut_mengundang",
+            "type": "turut_mengundang",
+            "order": 13,
+            "labels": [],
+            "enabled": false,
+            "customElements": []
+          }
+        ],
+        "couple_display_order": "bride-first",
+        "couple_photo_style": "floral-oval",
+        "couple_photo_size": 100,
+        "qr_popup_style": "classic-card",
+        "date_format": "default",
+        "use_photos": null,
+        "show_parents_names": null,
+        "assets": {
+          "visualTreatment": {
+            "mode": "off",
+            "preset": "none",
+            "intensity": 70
+          }
+        },
+        "features": {
+          "hasQRCode": true,
+          "hasLightbox": true,
+          "hasCountdown": true,
+          "hasLeftPanel": true,
+          "hasMusicPlayer": true,
+          "useDefaultScenes": true,
+          "hasFloatingButtons": true,
+          "hasGlobalOrnaments": false,
+          "hasEnvelopeAnimation": false
+        },
+        "flash_loading": {
+          "type": "logo",
+          "enabled": true,
+          "duration": 2000,
+          "animation": "fade"
+        },
+        "special_message_envelope": {
+          "enabled": true,
+          "displayMode": "auto"
+        },
+        "global_ornaments": null,
+        "animation_pack": {
+          "id": "none",
+          "enabled": false,
+          "stagger": "none"
+        },
+        "interactive_configuration": {
+          "copy": [],
+          "engine": "pixel-quest-v1",
+          "schemaVersion": 1
+        },
+        "labels": null,
+        "color_palette_name": "fleur-de-brume",
+        "color_palette_category": null,
+        "created_at": "2026-08-19T08:38:10.000000Z",
+        "updated_at": "2026-10-18T08:11:51.000000Z"
+      },
+      "vendor_business_name": null,
+      "vendor_logo_url": null,
+      "male_name": "Dias Taufik",
+      "female_name": "Azalia Fasya",
+      "male_father_name": "Ayah Dias",
+      "male_mother_name": "Ibu Dias",
+      "female_father_name": "Ayah Azalia",
+      "female_mother_name": "Ibu Azalia",
+      "male_photo": "https://assets-staging.inveet.id/weddings/dias-azalia/couples/photos/groom_1787506073_aVeBMpHeLs.jpg",
+      "female_photo": "https://assets-staging.inveet.id/weddings/dias-azalia/couples/photos/bride_1787506074_SGiAMsD48d.jpg",
+      "male_nickname": "Dias",
+      "female_nickname": "Azalia",
+      "wedding_cover": "wedding/175785698168c6c4d56ae91-Z37hM8pWs87UZfG.jpeg",
+      "youtube_id": "Z2Z9V-4DMGw",
+      "zoom_url": null,
+      "male_family_sequence": "Putra Pertama",
+      "female_family_sequence": "Putri Pertama",
+      "male_instagram": "diastaufikr",
+      "female_instagram": "diastaufikr",
+      "wedding_closing": null,
+      "background_image": "https://assets-staging.inveet.id/themes/bluebell-bunny/backgrounds/paper-wash-v1.webp",
+      "color_palette": "fleur-de-brume",
+      "custom_colors": "[\"#8B4513\",\"#DAA520\",\"#F5F5DC\",\"#FFFFFF\"]",
+      "couple_title": "Mempelai",
+      "mother_title": "Ibu",
+      "father_title": "Bapak",
+      "separator_title": "dan",
+      "location_title": "Lokasi",
+      "venue_title": "Tempat",
+      "time_title": "Waktu",
+      "rsvp_title": "Konfirmasi Kehadiran",
+      "gift_title": "Hadiah",
+      "message_title": "Pesan",
+      "section_turut_mengundang_title": "Turut Mengundang",
+      "section_turut_mengundang_male_label": "Pihak Laki-Laki",
+      "section_turut_mengundang_female_label": "Pihak Wanita",
+      "music_id": "01M46820FAC0VNTRZQK0YH3NSX",
+      "music_title": "Seal Online OST 37 - Lakeside Mystery",
+      "music_src": "https://assets-staging.inveet.id/user-assets/3/01M4681YSQ0WSYQFQ8700E3EMH.mp3",
+      "music_url": "https://assets-staging.inveet.id/user-assets/3/01M4681YSQ0WSYQFQ8700E3EMH.mp3",
+      "og_image": "https://assets-staging.inveet.id/weddings/dias-azalia/design-assets/opengraph/design-assets_1790461530_iQY36CaHnZ.jpg",
+      "design_customization": "[]",
+      "ceremony_livestream_enabled": false,
+      "ceremony_livestream_links": [],
+      "reception_livestream_enabled": false,
+      "reception_livestream_links": [],
+      "optional_one_livestream_enabled": false,
+      "optional_one_livestream_links": [],
+      "optional_two_livestream_enabled": false,
+      "optional_two_livestream_links": [],
+      "gift_confirmation": {
+        "phone": "6285912381233",
+        "button_label": null,
+        "message": null
+      },
+      "event_order": [
+        "ceremony",
+        "reception",
+        "optional_one",
+        "optional_two"
+      ],
+      "event_order_customized": false
+    },
+    "invitation": null,
+    "themeId": "sora-botanica",
+    "baseTheme": "premium-heritage-ornament",
+    "isPreview": false,
+    "isDesignPreview": false,
+    "themeConfig": {
+      "id": "sora-botanica",
+      "name": "Sora Botanica",
+      "slug": "sora-botanica",
+      "version": "1.0.0",
+      "colors": {
+        "primary": "#365F73",
+        "primaryLight": "#8FAFC5",
+        "accent": "#B79A63",
+        "accentDark": "#866F43",
+        "background": "#FAF5EA",
+        "backgroundAlt": "#E6EEF0",
+        "textDark": "#293E46",
+        "textLight": "#FFFDF8",
+        "text": "#293E46",
+        "heading": "#FFFDF8",
+        "secondary": "#C86758",
+        "buttonText": "#FFFDF8",
+        "buttonPrimary": "#365F73",
+        "leftPanelText": "#293E46",
+        "buttonSecondary": "#A64F43",
+        "buttonTextHover": "#FFFFFF",
+        "buttonPrimaryHover": "#294B5B",
+        "buttonSecondaryHover": "#873E35"
+      },
+      "typography": {
+        "headingFont": "Cormorant Infant",
+        "bodyFont": "Lora",
+        "accentFont": "Josefin Sans",
+        "scriptFont": "Great Vibes",
+        "baseFontSize": 16,
+        "headingSizeScale": 1.2
+      },
+      "ornaments": {
+        "iconUrl": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp",
+        "patternUrl": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+        "motifTopUrl": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp",
+        "motifBottomUrl": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp",
+        "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp",
+        "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp"
+      },
+      "sections": [
+        {
+          "id": "cover",
+          "type": "cover",
+          "order": 1,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-cover-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#365F73",
+            "backgroundStyle": "normal"
+          },
+          "layout": "garden-engrave",
+          "enabled": true,
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "opening",
+          "type": "opening",
+          "order": 2,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#E6EEF0",
+            "backgroundStyle": "normal"
+          },
+          "layout": "garden-manor",
+          "enabled": true,
+          "elements": {
+            "top-center": {
+              "scale": 0.96,
+              "enabled": true,
+              "offsetX": 0,
+              "offsetY": -12,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.05,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-opening-garland-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "quote",
+          "type": "quote",
+          "order": 3,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#FAF5EA",
+            "backgroundStyle": "normal"
+          },
+          "layout": "arch-minimal",
+          "enabled": true,
+          "elements": {
+            "top-right": {
+              "scale": 0.86,
+              "enabled": true,
+              "offsetX": 12,
+              "offsetY": -14,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.1,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-quote-branch-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "couple",
+          "type": "couple",
+          "order": 4,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#E6EEF0",
+            "backgroundStyle": "normal"
+          },
+          "layout": "arch-elegant",
+          "enabled": true,
+          "elements": {
+            "bottom-left": {
+              "scale": 0.54,
+              "enabled": true,
+              "offsetX": -18,
+              "offsetY": 18,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.08,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            },
+            "photo-bride": {
+              "enabled": false
+            },
+            "photo-groom": {
+              "enabled": false
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-couple-arch-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "event",
+          "type": "event",
+          "order": 5,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#365F73",
+            "backgroundStyle": "normal"
+          },
+          "layout": "organic-arch",
+          "enabled": true,
+          "elements": {
+            "bottom-center": {
+              "scale": 1.02,
+              "enabled": true,
+              "offsetX": 0,
+              "offsetY": 18,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-event-meadow-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.08,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-event-meadow-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-event-meadow-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-event-meadow-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-event-meadow-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "countdown",
+          "type": "countdown",
+          "order": 6,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#8FAFC5",
+            "backgroundStyle": "normal"
+          },
+          "layout": "editorial-clock",
+          "enabled": true,
+          "elements": {
+            "center": {
+              "scale": 0.86,
+              "enabled": true,
+              "offsetX": 0,
+              "offsetY": 0,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-countdown-wreath-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.08,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-countdown-wreath-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-countdown-wreath-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-countdown-wreath-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-countdown-wreath-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "order": 7,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#FAF5EA",
+            "backgroundStyle": "normal"
+          },
+          "layout": "bento-grid",
+          "enabled": true,
+          "elements": {
+            "bottom-right": {
+              "scale": 0.9,
+              "enabled": true,
+              "offsetX": 14,
+              "offsetY": 14,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-gallery-corner-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.1,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-gallery-corner-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-gallery-corner-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-gallery-corner-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-gallery-corner-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "story",
+          "type": "story",
+          "order": 8,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#E6EEF0",
+            "backgroundStyle": "normal"
+          },
+          "layout": "royal-cards",
+          "enabled": true,
+          "elements": {
+            "top-left": {
+              "scale": 0.88,
+              "enabled": true,
+              "offsetX": -14,
+              "offsetY": -12,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-story-vine-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.1,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-story-vine-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-story-vine-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-story-vine-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-story-vine-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica",
+            "timeline_style": "1"
+          }
+        },
+        {
+          "id": "gift",
+          "type": "gift",
+          "order": 9,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#FAF5EA",
+            "backgroundStyle": "normal"
+          },
+          "layout": "floating-ribbon",
+          "enabled": true,
+          "elements": {
+            "top-left": {
+              "scale": 0.82,
+              "enabled": true,
+              "offsetX": -12,
+              "offsetY": -10,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-gift-bouquet-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.08,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-gift-bouquet-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-gift-bouquet-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-gift-bouquet-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-gift-bouquet-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "wishes",
+          "type": "wishes",
+          "order": 10,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#E6EEF0",
+            "backgroundStyle": "normal"
+          },
+          "layout": "soft-panel",
+          "enabled": true,
+          "elements": {
+            "bottom-center": {
+              "scale": 0.96,
+              "enabled": true,
+              "offsetX": 0,
+              "offsetY": 22,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.12,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-wishes-meadow-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "closing",
+          "type": "closing",
+          "order": 11,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-closing-background-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 28,
+            "backgroundColor": "#365F73",
+            "backgroundStyle": "normal",
+            "overlayBlendMode": "soft-light"
+          },
+          "layout": "quiet-thanks",
+          "enabled": true,
+          "elements": {
+            "top-center": {
+              "scale": 0.94,
+              "enabled": true,
+              "offsetX": 0,
+              "offsetY": -10,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-closing-canopy-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.06,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-closing-canopy-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-closing-canopy-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-closing-canopy-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-closing-canopy-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        },
+        {
+          "id": "photobooth",
+          "type": "photobooth",
+          "order": 12,
+          "assets": {
+            "background": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+            "overlayColor": "#FAF5EA",
+            "backgroundType": "image",
+            "overlayOpacity": 0,
+            "backgroundColor": "#FAF5EA",
+            "backgroundStyle": "normal"
+          },
+          "layout": "botanical-frame",
+          "enabled": false,
+          "elements": {
+            "bottom-left": {
+              "scale": 0.86,
+              "enabled": true,
+              "offsetX": -12,
+              "offsetY": 12,
+              "imageUrl": "/themes/sora-botanica/sora-botanica-photobooth-frame-v1.webp",
+              "rotation": 0,
+              "animation": {
+                "type": "botanical-unfurl",
+                "delay": 0.08,
+                "speed": "slow",
+                "trigger": "visible",
+                "idleType": "botanical-drift",
+                "idleSpeed": "slow"
+              }
+            }
+          },
+          "ornaments": {
+            "motifTopUrl": "/themes/sora-botanica/sora-botanica-photobooth-frame-v1.webp",
+            "motifBottomUrl": "/themes/sora-botanica/sora-botanica-photobooth-frame-v1.webp",
+            "coupleOrnament1Url": "/themes/sora-botanica/sora-botanica-photobooth-frame-v1.webp",
+            "coupleOrnament2Url": "/themes/sora-botanica/sora-botanica-photobooth-frame-v1.webp"
+          },
+          "customProps": {
+            "signature": "sora-botanica"
+          }
+        }
+      ],
+      "coupleDisplayOrder": "bride-first",
+      "couplePhotoStyle": "floral-oval",
+      "couplePhotoSize": 104,
+      "qrPopupStyle": "classic-card",
+      "dateFormat": "default",
+      "usePhotos": null,
+      "showParentsNames": null,
+      "assets": {
+        "mainBackground": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+        "coverBackground": "/themes/sora-botanica/sora-botanica-cover-v1.webp",
+        "closingBackground": "/themes/sora-botanica/sora-botanica-closing-background-v1.webp",
+        "openingBackground": "/themes/sora-botanica/sora-botanica-paper-v1.webp",
+        "leftPanelBackground": "/themes/sora-botanica/sora-botanica-cover-v1.webp",
+        "leftPanelOverlayColor": "#FAF5EA",
+        "leftPanelOverlayOpacity": 0,
+        "visualTreatment": {
+          "mode": "inherit",
+          "preset": "none",
+          "intensity": 70
+        }
+      },
+      "features": {
+        "hasLeftPanel": true,
+        "hasFloatingButtons": true,
+        "hasQRCode": true,
+        "hasMusicPlayer": true,
+        "hasCountdown": true,
+        "hasLightbox": true,
+        "hasEnvelopeAnimation": false,
+        "hasGlobalOrnaments": false,
+        "useDefaultScenes": true
+      },
+      "flashLoading": {
+        "type": "logo",
+        "enabled": true,
+        "duration": 1600,
+        "animation": "fade"
+      },
+      "specialMessageEnvelope": {
+        "enabled": true,
+        "displayMode": "auto"
+      },
+      "globalOrnaments": {
+        "enabled": false,
+        "images": [],
+        "animationType": "floating",
+        "count": 0,
+        "speed": "slow"
+      },
+      "animationPack": {
+        "id": "botanical-breeze",
+        "enabled": true,
+        "stagger": "cascade"
+      },
+      "interactive": null,
+      "coverTransition": null,
+      "labels": {
+        "gift_title": "Love Gift",
+        "event_title": "Save The Date",
+        "guest_label": "Kepada Yth:",
+        "open_button": "Buka Undangan",
+        "wishes_title": "Wishes",
+        "footer_credit": "Created with love by Inveet",
+        "gallery_title": "Our Gallery",
+        "cover_subtitle": "The Wedding of",
+        "event_subtitle": "Kami menantikan kehadiran Anda di hari bahagia kami",
+        "theme_signature": "Sora Botanica"
+      },
+      "colorPaletteName": "sora-botanica",
+      "colorPaletteId": "sora-botanica",
+      "colorPaletteCategory": "Luxury",
+      "isDefault": true
+    }
+  },
+  "url": "/theme-preview/sora-botanica",
+  "version": "e853d1c244e0f5ed2b88b7fde34b90d1",
+  "sharedProps": [
+    "errors",
+    "name",
+    "whatsappCustomerBlastEnabled",
+    "locale",
+    "i18n",
+    "csrf_token",
+    "auth",
+    "announcement",
+    "impersonation",
+    "flash",
+    "sidebarOpen",
+    "trace_id",
+    "app_env",
+    "weddings",
+    "currentWedding",
+    "currentPackageTier",
+    "features",
+    "weddingPlannerSubscription",
+    "plannerNotifications",
+    "config",
+    "seo"
+  ],
+  "deferredProps": {
+    "auth": [
+      "features"
+    ]
+  }
+}
